@@ -46,6 +46,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="pl.krzysztofsikora.listenerapp.MainActivity" />
         </activity>
+        <activity
+            android:name=".HttpActivity"
+            android:label="@string/title_activity_http"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pl.krzysztofsikora.listenerapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -151,6 +151,10 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, MapsActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.httpBtn:
+                intent = new Intent(MainActivity.this, HttpActivity.class);
+                startActivity(intent);
+                break;
 
         }
 

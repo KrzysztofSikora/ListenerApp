@@ -41,5 +41,16 @@
         android:id="@+id/mapsBtn"
         android:onClick="click"/>
 
+    <Button
+        android:text="Http"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mapsBtn"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="40dp"
+        android:id="@+id/httpBtn"
+        android:onClick="click"/>
+
 
 </RelativeLayout>
